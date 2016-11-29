@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="description" content="">
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0" name="viewport">
+<title>test</title>
+<link rel="shortcut icon" href="blog/avatar.png" type="image/x-icon" />
+<link rel="stylesheet" href="blog/index.css"/>
+</head>
+<body>
+  <script>
+  function clickHandle() {
+    var xmlHttp = new XMLHttpRequest();
+    var url = 'http://localhost:6789';
+    xmlHttp.open('GET', url, true);
+    xmlHttp.send();
+  }
+  </script>
+
+  <button id="test" onclick="clickHandle()">test</button>
+</body>
+</html>
