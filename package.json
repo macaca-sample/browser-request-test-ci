@@ -5,7 +5,7 @@
   "keywords": [],
   "repository": {
     "type": "git",
-    "url": "https://github.com/xudafeng/browser-request-test-ci.git"
+    "url": "https://github.com/macaca-sample/browser-request-test-ci.git"
   },
   "scripts": {
     "test": "make test"
